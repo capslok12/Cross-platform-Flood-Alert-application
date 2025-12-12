@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- REMOVE Google Maps API key -->
+    <!-- <key>GMSServicesAPIKey</key>
+    <string>YOUR_IOS_API_KEY_HERE</string> -->
+
+    <!-- KEEP location permissions for GPS -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs location access to send help requests</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app needs location access to send help requests</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs location access to send help requests</string>
+
+    <!-- Keep existing keys below -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <!-- ... rest of your existing plist -->
+
+</dict>
+</plist>
