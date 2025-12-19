@@ -1,30 +1,3 @@
-# # models.py
-# from sqlalchemy import Column, Integer, String, Float, DateTime
-# from database import Base
-# from datetime import datetime
-
-# class NGO(Base):
-#     __tablename__ = "ngos"
-
-#     id = Column(Integer, primary_key=True, index=True)
-#     name = Column(String)
-#     location = Column(String)
-#     contact = Column(String)
-#     description = Column(String)
-
-# class HelpRequest(Base):
-#     __tablename__ = "help_requests"
-
-#     id = Column(Integer, primary_key=True, index=True)
-#     request_type = Column(String)      # "Food", "Water", "Rescue"
-#     latitude = Column(Float, nullable=False)
-#     longitude = Column(Float, nullable=False)
-#     phone = Column(String, nullable=True)
-#     details = Column(String, nullable=True)
-#     created_at = Column(DateTime, default=datetime.utcnow)
-
-
-
 from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from database import Base
